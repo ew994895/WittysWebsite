@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse Ethan Witkowski's personal, school, and client-based software projects."
+    />
+    <title>Projects | Witty's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="projects">
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="navbar">
+          <a class="brand" href="index.html" aria-label="Witty's Website home">
+            <span class="brand-mark">&lt;/&gt;</span>
+            <span class="brand-text">
+              <strong>Witty's Website</strong>
+              <small>Ethan Witkowski</small>
+            </span>
+          </a>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Open navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links" id="nav-links">
+            <a href="index.html" data-page="home">Home</a>
+            <a href="about.html" data-page="about">About</a>
+            <a href="projects.html" data-page="projects">Projects</a>
+            <a href="skills.html" data-page="skills">Skills</a>
+            <a href="resume.html" data-page="resume">Resume</a>
+            <a href="contact.html" data-page="contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section page-header">
+          <div class="page-header-copy reveal">
+            <p class="eyebrow">Project Console</p>
+            <h1>Projects that show how I build and grow</h1>
+            <p>
+              This page holds the full project library across personal work, school builds,
+              and client-based development.
+            </p>
+          </div>
+        </section>
+
+        <section class="section section-tight-top">
+          <div class="project-controls reveal" role="tablist" aria-label="Project filters">
+            <button class="filter-button active" type="button" data-filter="all">All Projects</button>
+            <button class="filter-button" type="button" data-filter="personal">Personal Projects</button>
+            <button class="filter-button" type="button" data-filter="school">School Projects</button>
+            <button class="filter-button" type="button" data-filter="client">Client-Based Projects</button>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card glass-card reveal" data-category="personal">
+              <div class="project-top">
+                <span class="project-type">Personal Android Application</span>
+                <h3>Ethan Witkowski Portfolio Application</h3>
+              </div>
+              <p>
+                A personal Android application designed to showcase my projects, technical
+                skills, contact information, and personal brand in an app format.
+              </p>
+              <div>
+                <h4>Technologies Used</h4>
+                <div class="tech-stack">
+                  <span>Android Studio</span>
+                  <span>Java</span>
+                  <span>XML</span>
+                  <span>GitHub</span>
+                </div>
+              </div>
+              <div>
+                <h4>What I Did</h4>
+                <ul class="project-points">
+                  <li>Designed and developed a personal portfolio Android application.</li>
+                  <li>Built interactive UI components and organized content into a clean mobile experience.</li>
+                  <li>Practiced Android layout design, activity navigation, and structured project organization.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noreferrer">Live / Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card glass-card reveal" data-category="client">
+              <div class="project-top">
+                <span class="project-type">Client-Based Android Application</span>
+                <h3>Orthoforge Application</h3>
+              </div>
+              <p>
+                A client-focused Android application built around specific business
+                requirements and user needs.
+              </p>
+              <div>
+                <h4>Technologies Used</h4>
+                <div class="tech-stack">
+                  <span>Android Studio</span>
+                  <span>Java</span>
+                  <span>XML</span>
+                  <span>GitHub</span>
+                </div>
+              </div>
+              <div>
+                <h4>What I Did</h4>
+                <ul class="project-points">
+                  <li>Helped build a functional Android application tailored to client goals.</li>
+                  <li>Worked on interactive UI components, screen navigation, and app structure.</li>
+                  <li>Practiced developing software for a real use case with clearer requirements and expectations.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noreferrer">Live / Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card glass-card reveal" data-category="personal">
+              <div class="project-top">
+                <span class="project-type">Personal Website</span>
+                <h3>Witty's Website</h3>
+              </div>
+              <p>
+                My personal portfolio website built to showcase my projects, resume,
+                technical skills, and growth as a developer.
+              </p>
+              <div>
+                <h4>Technologies Used</h4>
+                <div class="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>GitHub Pages</span>
+                </div>
+              </div>
+              <div>
+                <h4>What I Did</h4>
+                <ul class="project-points">
+                  <li>Designed and built a personal developer website for GitHub Pages.</li>
+                  <li>Organized personal, school, and client projects in one professional portfolio.</li>
+                  <li>Created a modern responsive layout with interactive UI features.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noreferrer">Live / Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card glass-card reveal" data-category="school">
+              <div class="project-top">
+                <span class="project-type">School Project</span>
+                <h3>Coursework Project Placeholder</h3>
+              </div>
+              <p>A computer science project completed as part of my coursework.</p>
+              <div>
+                <h4>Technologies Used</h4>
+                <div class="tech-stack">
+                  <span>Java</span>
+                  <span>GitHub</span>
+                </div>
+              </div>
+              <div>
+                <h4>What I Did</h4>
+                <ul class="project-points">
+                  <li>Applied programming concepts learned in class.</li>
+                  <li>Practiced problem-solving, debugging, and writing organized code.</li>
+                  <li>Strengthened my understanding of software development fundamentals.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noreferrer">Live / Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card glass-card reveal" data-category="school">
+              <div class="project-top">
+                <span class="project-type">School Project</span>
+                <h3>Data Structures Project Placeholder</h3>
+              </div>
+              <p>
+                A future project card for a class build involving algorithms,
+                data structures, or problem-solving work.
+              </p>
+              <div>
+                <h4>Technologies Used</h4>
+                <div class="tech-stack">
+                  <span>Java</span>
+                  <span>Algorithms</span>
+                  <span>Debugging</span>
+                </div>
+              </div>
+              <div>
+                <h4>What I Did</h4>
+                <ul class="project-points">
+                  <li>Use this card to describe the assignment goal and what you learned.</li>
+                  <li>Highlight the challenges you solved and your technical decisions.</li>
+                  <li>Swap in your actual technologies, links, and screenshots later.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noreferrer">Live / Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card glass-card reveal" data-category="school">
+              <div class="project-top">
+                <span class="project-type">School Project</span>
+                <h3>Software Engineering Project Placeholder</h3>
+              </div>
+              <p>
+                A placeholder for a future course project involving collaboration,
+                planning, or a larger application build.
+              </p>
+              <div>
+                <h4>Technologies Used</h4>
+                <div class="tech-stack">
+                  <span>Planning</span>
+                  <span>GitHub</span>
+                  <span>Teamwork</span>
+                </div>
+              </div>
+              <div>
+                <h4>What I Did</h4>
+                <ul class="project-points">
+                  <li>Document the goal of the project and your role on the team.</li>
+                  <li>Explain what part of the implementation you owned or improved.</li>
+                  <li>Use this slot for your next collaborative school build.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noreferrer">Live / Demo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Built by Ethan Witkowski — Witty's Website</p>
+        <div class="footer-links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="assets/Ethan-Witkowski-Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a href="projects.html">Projects</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
