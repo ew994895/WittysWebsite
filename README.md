@@ -1,28 +1,27 @@
 # Witty's Website
 
-Multi-page static portfolio website for Ethan Witkowski, built with HTML, CSS, and JavaScript for direct GitHub Pages deployment.
+Clean multi-page project and demo portfolio for Ethan Witkowski, built with HTML, CSS, and JavaScript for GitHub Pages.
 
-## Project Structure
+## Files
 
-- `index.html` is the landing page with the hero, featured project previews, and quick portfolio highlights.
-- `about.html` contains the about section, developer journey timeline, and personal trait cards.
-- `projects.html` contains the full projects section and filter buttons.
-- `skills.html` contains the full categorized skills section.
-- `resume.html` contains the resume summary and PDF access links.
-- `contact.html` contains contact links and quick actions.
-- `styles.css` contains the shared theme, layout, card styling, and responsive page styles.
-- `script.js` contains the typing effect, mobile menu behavior, active nav highlighting, project filtering, and reveal animations.
-- `assets/` stores the resume PDF and any future media files.
+- `index.html` is the landing page with a short intro, featured projects, and a demo reel preview.
+- `projects.html` is the main project gallery with filter buttons and visual project cards.
+- `demo.html` is the demo reel page for walkthroughs, screen recordings, and future video embeds.
+- `resume.html` is a simplified resume page with a short summary and direct PDF link.
+- `contact.html` is the contact page with email, GitHub, LinkedIn, and resume access.
+- `styles.css` contains the shared layout, dark theme, cards, navigation, and responsive styles.
+- `script.js` contains the mobile menu, active nav state, project filtering, and subtle reveal animation.
+- `assets/Ethan-Witkowski-Resume.pdf` is the resume PDF used by the site.
 
 ## Run Locally
 
-1. From the project folder, run:
+Run:
 
 ```bash
 python3 -m http.server 5500
 ```
 
-2. Open:
+Then open:
 
 ```text
 http://localhost:5500
@@ -30,20 +29,27 @@ http://localhost:5500
 
 ## Deploy To GitHub Pages
 
-1. Push the full project to a GitHub repository.
+1. Push the project to a GitHub repository.
 2. Open the repository on GitHub.
 3. Go to `Settings` > `Pages`.
-4. Set the source to deploy from the `main` branch and the repository root.
+4. Deploy from the `main` branch and the repository root.
 5. Save the settings and wait for GitHub Pages to publish the site.
-6. Open the published GitHub Pages URL to verify the multi-page navigation and resume link.
+6. Open the published URL and verify the navbar, project gallery, demo page, and resume link.
 
-## Resume PDF
+## Screenshots And Videos
 
-- Store the resume at `assets/Ethan-Witkowski-Resume.pdf`.
-- If you replace the file later, keep the same filename so all resume buttons continue to work.
+- Replace project placeholders directly in the HTML files.
+- Add screenshots, MP4 files, GIFs, or thumbnails inside `assets/`.
+- `index.html`, `projects.html`, and `demo.html` include placeholder media blocks you can swap for screenshots or videos.
+- `demo.html` includes HTML comments showing where to place a YouTube iframe, MP4 `<video>`, GIF, or screenshot link.
+
+## Resume File
+
+- Keep the resume PDF at `assets/Ethan-Witkowski-Resume.pdf`.
+- If you update the resume later, keep the same filename so every resume link continues to work.
 
 ## Notes
 
-- The site is fully static and works on GitHub Pages without a backend or build step.
-- All navigation uses relative links so the pages work locally and after deployment.
-- Replace the placeholder GitHub and LinkedIn links in the HTML files with your real public profile URLs.
+- The site is static and GitHub Pages compatible.
+- Navigation uses relative paths so the pages work locally and after deployment.
+- Replace the placeholder GitHub and LinkedIn links with your real public URLs when ready.

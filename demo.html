@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Demos for Ethan Witkowski's current apps and website builds."
+    />
+    <title>Demos | Witty's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="demo">
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="navbar">
+          <a class="brand" href="index.html" aria-label="Witty's Website home">
+            <span class="brand-mark">
+              <img class="brand-logo" src="assets/wittys-website-logo.svg" alt="Witty's Website logo" />
+            </span>
+            <span class="brand-text">
+              <strong>Witty's Website</strong>
+              <small>Ethan Witkowski</small>
+            </span>
+          </a>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Open navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links" id="nav-links">
+            <a href="index.html" data-page="home">Home</a>
+            <a href="projects.html" data-page="projects">Projects</a>
+            <a href="demo.html" data-page="demo">Demos</a>
+            <a href="resume.html" data-page="resume">Resume</a>
+            <a href="contact.html" data-page="contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section page-header">
+          <div class="page-header-copy reveal">
+            <p class="eyebrow">Demos</p>
+            <h1>Demos</h1>
+            <p>Simple demo entries for the projects that exist right now.</p>
+          </div>
+        </section>
+
+        <section class="section section-tight-top">
+          <div class="demo-grid">
+            <article class="project-card reveal">
+              <!-- Replace this <video> with a YouTube iframe, different MP4, GIF, or screenshot if needed. -->
+              <div class="card-media">
+                <div class="demo-video-frame">
+                  <img class="demo-logo" src="assets/portfolio%20%20logo.png" alt="Portfolio Application logo" />
+                  <video class="demo-video" controls preload="metadata">
+                    <source src="assets/portfolio.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-type">Portfolio Application Demo</p>
+                <h3>Portfolio Application Demo</h3>
+                <p>Embedded demo for the Android portfolio app.</p>
+                <div class="action-row">
+                  <a class="button button-ghost" href="assets/portfolio.mp4" target="_blank" rel="noreferrer">Open Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <!-- Replace this <video> with a YouTube iframe, different MP4, GIF, or screenshot if needed. -->
+              <div class="card-media">
+                <div class="demo-video-frame">
+                  <img class="demo-logo" src="assets/orthoforge%20logo.png" alt="Orthoforge logo" />
+                  <video class="demo-video" controls preload="metadata">
+                    <source src="assets/orthoforge.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-type">Orthoforge Application Demo</p>
+                <h3>Orthoforge Application Demo</h3>
+                <p>Embedded demo for the client-based Android application.</p>
+                <div class="action-row">
+                  <a class="button button-ghost" href="assets/orthoforge.mp4" target="_blank" rel="noreferrer">Open Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <!-- Replace this <video> with a YouTube iframe, different MP4, GIF, or screenshot if needed. -->
+              <div class="card-media">
+                <div class="demo-video-frame">
+                  <img class="demo-logo" src="assets/rankit%20logo.png" alt="Rank.It logo" />
+                  <video class="demo-video" controls preload="metadata">
+                    <source src="assets/rankit.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-type">Rank.It Demo</p>
+                <h3>Rank.It Demo</h3>
+                <p>Embedded demo for the Rank.It Android app.</p>
+                <div class="action-row">
+                  <a class="button button-ghost" href="assets/rankit.mp4" target="_blank" rel="noreferrer">Open Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Built by Ethan Witkowski — Witty's Website</p>
+        <div class="footer-links">
+          <a href="mailto:ew994895@wcupa.edu">Email</a>
+          <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="assets/Ethan-Witkowski-Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
