@@ -1,21 +1,33 @@
 # Witty's Website
 
-Clean multi-page project and demo portfolio for Ethan Witkowski, built with HTML, CSS, and JavaScript for GitHub Pages.
+Published multi-page portfolio for Ethan Witkowski, built with HTML, CSS, and JavaScript and hosted on GitHub Pages.
 
-## Files
+## Live Site
 
-- `index.html` is the landing page with a short intro, featured projects, and a demo reel preview.
-- `projects.html` is the main project gallery with filter buttons and visual project cards.
-- `demo.html` is the demo reel page for walkthroughs, screen recordings, and future video embeds.
-- `resume.html` is a simplified resume page with a short summary and direct PDF link.
-- `contact.html` is the contact page with email, GitHub, LinkedIn, and resume access.
-- `styles.css` contains the shared layout, dark theme, cards, navigation, and responsive styles.
-- `script.js` contains the mobile menu, active nav state, project filtering, and subtle reveal animation.
-- `assets/Ethan-Witkowski-Resume.pdf` is the resume PDF used by the site.
+Expected GitHub Pages URL for this repository:
+
+```text
+https://ew994895.github.io/WittysWebsite/
+```
+
+## Current Structure
+
+- `index.html` is the landing page with the hero and current project preview cards.
+- `projects.html` contains the current project gallery.
+- `demo.html` contains the embedded demos for the current app projects.
+- `resume.html` contains the resume summary and direct PDF link.
+- `contact.html` contains contact links.
+- `styles.css` contains the shared theme, layout, cards, and responsive styles.
+- `script.js` contains the mobile nav, active page state, and reveal animation.
+
+## Assets
+
+- `assets/Ethan-Witkowski-Resume.pdf` is the live resume file used across the site.
+- `assets/portfolio.mp4`, `assets/orthoforge.mp4`, and `assets/rankit.mp4` are the current embedded demo videos.
+- `assets/portfolio  logo.png`, `assets/orthoforge logo.png`, and `assets/rankit logo.png` are the current project logos.
+- `assets/wittys-website-logo.svg` is the website logo used in the navbar and website project visuals.
 
 ## Run Locally
-
-Run:
 
 ```bash
 python3 -m http.server 5500
@@ -27,29 +39,14 @@ Then open:
 http://localhost:5500
 ```
 
-## Deploy To GitHub Pages
+## Publish Updates
 
-1. Push the project to a GitHub repository.
-2. Open the repository on GitHub.
-3. Go to `Settings` > `Pages`.
-4. Deploy from the `main` branch and the repository root.
-5. Save the settings and wait for GitHub Pages to publish the site.
-6. Open the published URL and verify the navbar, project gallery, demo page, and resume link.
-
-## Screenshots And Videos
-
-- Replace project placeholders directly in the HTML files.
-- Add screenshots, MP4 files, GIFs, or thumbnails inside `assets/`.
-- `index.html`, `projects.html`, and `demo.html` include placeholder media blocks you can swap for screenshots or videos.
-- `demo.html` includes HTML comments showing where to place a YouTube iframe, MP4 `<video>`, GIF, or screenshot link.
-
-## Resume File
-
-- Keep the resume PDF at `assets/Ethan-Witkowski-Resume.pdf`.
-- If you update the resume later, keep the same filename so every resume link continues to work.
+1. Commit and push changes to `main`.
+2. GitHub Pages will publish the updated site from the repository root.
+3. Recheck the live site after the push finishes.
 
 ## Notes
 
 - The site is static and GitHub Pages compatible.
-- Navigation uses relative paths so the pages work locally and after deployment.
-- Replace the placeholder GitHub and LinkedIn links with your real public URLs when ready.
+- Navigation uses relative paths so the pages work locally and when published.
+- Keep the resume filename the same if you replace it later so the existing links continue to work.
