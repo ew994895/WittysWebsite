@@ -566,6 +566,14 @@ a {
   max-height: 7.25rem;
 }
 
+.project-brand-logo {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+  border-radius: 10px;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.28);
+}
+
 .contact-card {
   max-width: 760px;
   margin: 0 auto;
